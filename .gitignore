@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Input videos (replaceable, large)
+data/input*.mp4
+data/input*.mov
+data/input*.avi
+
+# Enrolled face data (personal / PII)
+known_faces/*.jpg
+known_faces/*.jpeg
+known_faces/*.png
+known_faces/*.npy
+
+# Person profiles, face samples, conversations, and social data (personal / PII)
+people/
+
+# ML models (download separately, large)
+models/*.onnx
+
+# IDE / editor
+.idea/
+.vscode/
+.qoder/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local document review artifacts
+.codex_doc_review/
